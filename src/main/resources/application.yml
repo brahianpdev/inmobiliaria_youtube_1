@@ -1,3 +1,6 @@
+# IMPORTANTE:
+# El url, username & password se exponen porque es una practica. 
+# En una aplicacion real, estos datos son sensibles, por lo que se debe utilizar variables de entorno.
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
