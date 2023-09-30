@@ -60,9 +60,46 @@ Ver apartado `5.1` en adelante para ver como configurar el “Menú” utilizand
 
 `4` - Abrir Apache Netbeans, esperar que carguen las dependencias y ejecutar el programa. Este paso funciona exactamente igual en Intellij.
 
+![image](https://github.com/brahianpdev/inmobiliaria_youtube_1/assets/66213550/abebdee9-44ec-42aa-a25e-c346d04307dd)
 
+`5.1` - Abrir Postman y abrir la colección.
 
+![image](https://github.com/brahianpdev/inmobiliaria_youtube_1/assets/66213550/0e4df5a6-13f8-4783-b280-2d36671c9e7e)
 
+![image](https://github.com/brahianpdev/inmobiliaria_youtube_1/assets/66213550/a6c74b25-4578-4902-8268-1855956e4493)
 
+### DEMO [ PRESENTACION ] 
+
+De la forma en la que se hizo el código, cuando se inicia NetBeans, genera las tablas en base a entidades que están en la carpeta entities. Y, mediante un script database.sql en la carpeta resources, dichas tablas se pueblan con datos de prueba para facilitar la demostración práctica mediante Postman.
+
+Tenemos endpoints que cubren todo el acronimo CRUD (Create, read, update, delete). 
+
+Endpoint, mas logica:
+`listarClientes`: Verifica que existan clientes en la base de datos, si existen, retorna la lista de todos ellos, sino, retorna null (if else).
+
+`buscarClientePorId`: Verifica que el cliente buscado, exista en la base de datos, y lo retorna, en caso de que no exista, retorna null (if else). 
+
+`registrarNuevoCliente`: Se registran los datos ingresados por el usuario, y se guarda un nuevo cliente en la base de datos.
+
+`actualizarCliente`: Se verifica que el cliente exista en la base de datos, si existe, mediante un while recorre todos los campos que tiene que actualizar, en caso de que no exista dicho cliente, retorna null.
+
+`eliminarCliente`: Elimina un cliente de la base de datos.
+
+`mostrarInmobiliaria`: Muestra los detalles de la inmobiliaria.
+
+Para ver a nivel código, una explicacion mas “logica o técnica”, revisar la clase “ClientService”.
+
+![image](https://github.com/brahianpdev/inmobiliaria_youtube_1/assets/66213550/9e1cd078-04d4-4713-b32e-169b936f2e20)
+
+### IMPORTANTE
+Si falla por que el PUERTO 8080 está en uso.
+
+`1`- Abrir cmd y ejecutar: 
+```
+netstat -ano | findstr :8080
+taskkill /F /PID {PIDNUMBER}
+```
+Ver imagen de referencia:
+![image](https://github.com/brahianpdev/inmobiliaria_youtube_1/assets/66213550/013e3002-13a9-4d02-8c7a-48c4a53a1ecf)
 
 
