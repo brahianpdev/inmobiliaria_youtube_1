@@ -106,6 +106,7 @@ netstat -ano | findstr :8080
 taskkill /F /PID {PIDNUMBER}
 ```
 Ver imagen de referencia:
+
 ![image](https://github.com/brahianpdev/inmobiliaria_youtube_1/assets/66213550/013e3002-13a9-4d02-8c7a-48c4a53a1ecf)
 
 
