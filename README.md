@@ -29,3 +29,40 @@ Aprenderemos cómo utilizar Postman para realizar solicitudes HTTP, probar servi
 
 ![image](https://github.com/brahianpdev/inmobiliaria_youtube_1/assets/66213550/66e76910-acdd-47ef-b740-6a0eddbc29a8)
 
+### Instalaciones necesarias
+
+`1` - Descargar [plugin](https://plugins.netbeans.apache.org/catalogue/?id=4) de Spring Boot para Apache Netbeans e instalarlo o en su defecto, descargar [Intellij Community Edition](https://www.jetbrains.com/edu-products/download/other-IIE.html)
+En caso de ir por la primera opcion, verificar que sea este:
+
+![image](https://github.com/brahianpdev/inmobiliaria_youtube_1/assets/66213550/17829024-dd8e-4a77-befb-35764b94b77d)
+
+`1.1` - Instalacion de Plugin en Apache:
+
+![image](https://github.com/brahianpdev/inmobiliaria_youtube_1/assets/66213550/6205a05c-f9e2-494d-8745-5f430faf77c7)
+
+`2` - Descarga, instalación de Postman y carga de colección.
+`2.1` - [Descargar postman](https://www.postman.com/downloads/)
+
+![image](https://github.com/brahianpdev/inmobiliaria_youtube_1/assets/66213550/ec902e43-bf2a-4d3a-a732-dd912ddd5456)
+
+`2.2` - Descargar [coleccion](https://www.mediafire.com/file/jhsgmceze4mp99e/TP+Inmobiliaria.postman_collection.json/file) de Postman de TP Inmobiliaria
+
+Ver apartado `5.1` en adelante para ver como configurar el “Menú” utilizando Postman como herramienta.
+
+`3` - Creación y uso de base de datos “inmobiliaria” en MySql Workbench.
+`3.1` - Conectarse.
+
+![image](https://github.com/brahianpdev/inmobiliaria_youtube_1/assets/66213550/b83ee86e-f0e0-4bcd-bd50-d0bf862f87e4)
+
+`3.2` Crear la db y hacer uso de ella.
+
+![image](https://github.com/brahianpdev/inmobiliaria_youtube_1/assets/66213550/2de6d682-82e7-440f-a256-e00e2157d68b)
+
+`4` - Abrir Apache Netbeans, esperar que carguen las dependencias y ejecutar el programa. Este paso funciona exactamente igual en Intellij.
+
+
+
+
+
+
+
