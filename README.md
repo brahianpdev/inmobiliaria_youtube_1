@@ -68,24 +68,30 @@ Ver apartado `5.1` en adelante para ver como configurar el “Menú” utilizand
 
 ![image](https://github.com/brahianpdev/inmobiliaria_youtube_1/assets/66213550/a6c74b25-4578-4902-8268-1855956e4493)
 
-### DEMO [ PRESENTACION ] 
+### DEMO 
 
 De la forma en la que se hizo el código, cuando se inicia NetBeans, genera las tablas en base a entidades que están en la carpeta entities. Y, mediante un script database.sql en la carpeta resources, dichas tablas se pueblan con datos de prueba para facilitar la demostración práctica mediante Postman.
 
 Tenemos endpoints que cubren todo el acronimo CRUD (Create, read, update, delete). 
 
-Endpoint, mas logica:
-`listarClientes`: Verifica que existan clientes en la base de datos, si existen, retorna la lista de todos ellos, sino, retorna null (if else).
+Endpoint, mas lógica:
+`listarClientes`: 
+Verifica que existan clientes en la base de datos, si existen, retorna la lista de todos ellos, sino, retorna null (if else).
 
-`buscarClientePorId`: Verifica que el cliente buscado, exista en la base de datos, y lo retorna, en caso de que no exista, retorna null (if else). 
+`buscarClientePorId`:
+Verifica que el cliente buscado, exista en la base de datos, y lo retorna, en caso de que no exista, retorna null (if else). 
 
-`registrarNuevoCliente`: Se registran los datos ingresados por el usuario, y se guarda un nuevo cliente en la base de datos.
+`registrarNuevoCliente`:
+Se registran los datos ingresados por el usuario, y se guarda un nuevo cliente en la base de datos.
 
-`actualizarCliente`: Se verifica que el cliente exista en la base de datos, si existe, mediante un while recorre todos los campos que tiene que actualizar, en caso de que no exista dicho cliente, retorna null.
+`actualizarCliente`: 
+Se verifica que el cliente exista en la base de datos, si existe, mediante un while recorre todos los campos que tiene que actualizar, en caso de que no exista dicho cliente, retorna null.
 
-`eliminarCliente`: Elimina un cliente de la base de datos.
+`eliminarCliente`: 
+Elimina un cliente de la base de datos.
 
-`mostrarInmobiliaria`: Muestra los detalles de la inmobiliaria.
+`mostrarInmobiliaria`: 
+Muestra los detalles de la inmobiliaria.
 
 Para ver a nivel código, una explicacion mas “logica o técnica”, revisar la clase “ClientService”.
 
